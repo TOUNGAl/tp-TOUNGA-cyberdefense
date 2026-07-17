@@ -3,90 +3,57 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>À propos — TOUNGA Cyberdéfense</title>
-<meta name="description" content="L'équipe et les valeurs d'Argus Cyberdéfense, cabinet de sécurité informatique basé au Gabon.">
+<title>À propos - TOUNGA Cyberdéfense</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header class="site-header">
-  <div class="header-inner">
-    <a class="brand" href="index.html">
-      <svg class="brand-mark" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Logo TOUNGA Cyberdéfense">
-        <circle cx="20" cy="20" r="18" fill="none" stroke="#0E7C86" stroke-width="2"/>
-        <circle cx="20" cy="20" r="11" fill="none" stroke="#0E2A43" stroke-width="2"/>
-        <circle cx="20" cy="20" r="3.4" fill="#0E7C86"/>
-      </svg>
-      <span class="brand-name">TOUNGA Cyberdéfense<small>Supervision &amp; défense réseau</small></span>
-    </a>
-    <button class="nav-toggle" aria-label="Ouvrir le menu de navigation" aria-expanded="false" aria-controls="primary-navigation">☰</button>
-    <nav class="main-nav" id="primary-navigation" aria-label="Navigation principale">
-      <ul>
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="about.html" aria-current="page">À propos</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+<header class="header">
+    <div class="logo">TOUNGA Cyberdéfense</div>
+    <nav>
+        <ul class="navbar-links" style="list-style:none; display:inline-block; padding:0;">
+            <li style="display:inline; margin-right:15px;"><a href="index.html">Accueil</a></li>
+            <li style="display:inline; margin-right:15px;"><a href="about.html">À propos</a></li>
+            <li style="display:inline;"><a href="contact.html">Contact</a></li>
+        </ul>
     </nav>
-  </div>
 </header>
 
-<main>
-  <section>
-    <div class="wrap">
-      <div class="section-head">
-        <span class="tag">Qui sommes-nous</span>
-        <h1>Une équipe qui pense comme un attaquant, pour défendre comme un allié.</h1>
-        <p>TOUNGA Cyberdéfense est né d'un constat simple : les PME et institutions gabonaises manquent d'un partenaire de sécurité réactif et accessible. Nous combinons audit technique, surveillance continue et pédagogie pour que la sécurité informatique ne soit plus un point aveugle.</p>
-      </div>
+<h2 class="section-title">Qui sommes-nous ?</h2>
 
-      <ul class="team-list">
-        <li class="team-card">
-          <div class="avatar" style="background:#0E7C86;">MN</div>
-          <span class="role">Fondateur &amp; Responsable SOC</span>
-          <h3>TOUNGA OFOUROU Bertrand Larry</h3>
-          <p>Pilote la supervision 24/7 et la réponse aux incidents. Quinze ans d'expérience en sécurité des systèmes bancaires.</p>
-        </li>
-        <li class="team-card">
-          <div class="avatar" style="background:#16405F;">KO</div>
-          <span class="role">Responsable Pentest</span>
-          <h3>MPI</h3>
-          <p>Mène les tests d'intrusion applicatif et réseau, et forme les équipes clientes aux bonnes pratiques.</p>
-        </li>
-        <li class="team-card">
-          <div class="avatar" style="background:#0E2A43;">SL</div>
-          <span class="role">Analyste Sécurité</span>
-          <h3>UNG</h3>
-          <p>Surveille les journaux d'activité et qualifie les alertes en temps réel pour déclencher les réponses adaptées.</p>
-        </li>
-      </ul>
+<div class="about-text">
+    <p>TOUNGA Cyberdéfense est né de la volonté de 3 étudiants de mettre
+    leurs compétences en sécurité informatique au service d'un projet concret. Formation,
+    veille, et protection des systèmes sont au coeur de notre démarche.</p>
+</div>
 
-      <aside class="values-aside" aria-label="Nos valeurs">
-        <h2>Nos principes</h2>
-        <ul>
-          <li><strong>Transparence :</strong> chaque rapport d'audit est expliqué en clair, sans jargon inutile.</li>
-          <li><strong>Réactivité :</strong> un incident signalé reçoit une première réponse en moins de 15 minutes.</li>
-          <li><strong>Confidentialité :</strong> toutes les données clientes restent chiffrées et cloisonnées.</li>
-        </ul>
-      </aside>
+<h2 class="section-title">Notre équipe</h2>
+
+<div class="team-container">
+
+    <div class="team-card chef">
+      
+        <h3>TOUNGA OFOUROU Bertrand Larry</h3>
+        <p>Chef de projet</p>
     </div>
-  </section>
-</main>
 
-<footer class="site-footer">
-  <div class="footer-inner">
-    <p>© 2026 TOUNGA Cyberdéfense — Franceville, Gabon</p>
-    <nav aria-label="Navigation de pied de page">
-      <ul>
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="about.html">À propos</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </div>
+    <div class="team-card">
+        <h3>Nom et Prénom </h3>
+        <p>Membre de l'équipe</p>
+        <p>MPI</p>
+    </div>
+
+    <div class="team-card">
+        <h3>Nom et Prénom </h3>
+        <p>Membre de l'équipe</p>
+        <p>UNG</p>
+    </div>
+
+</div>
+
+<footer>
+    &copy; 2026 TOUNGA Cyberdéfense - Tous droits réservés
 </footer>
 
-<script src="script.js"></script>
 </body>
 </html>
